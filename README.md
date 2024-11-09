@@ -2,6 +2,8 @@
 
 You can find the rectangle.py file in the scripts. 
 
+Video, demonstrating the output of this script is also present (file with .mp4 extension)
+
 Steps to execute/run the scritp:
 
 (Make sure that you have all the ROS turtlesim dependencies and packages installed)
