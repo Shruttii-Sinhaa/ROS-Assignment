@@ -1,46 +1,12 @@
-# About
-
-This ROS Package can be used to control the movement of a bot inside the turtlesim package
-
-# Installation
-
-- Install the `turtlesim` package
-
-    ```bash
-    sudo apt-get install ros-noetic-turtlesim
-    ```
-
-- Clone this package inside a catkin workspace
-
-    ```bash
-    mkdir -p ros_ws/src 
-    cd ros_ws/src
-    git clone https://github.com/topguns837/ros_session.git
-    ```
-
-- Compile the code and source the workspace
-
-    ```bash
-    catkin_make
-    source devel/setup.bash
-    ```
-
-# Instructions to run the code
-
-- In terminal 1
-
-    ```bash
-    roscore
-    ```
-
-- In terminal 2
-
-    ```bash
-    rosrun turtlesim turtlesim_node
-    ```
-
-- In terminal 3
-
-    ```bash
-    rosrun ros_session move_straight.py
-    ```
+The base git repo was cloned and a new python script was created to draw a rectangle using the turtlesim python-ROS.
+You can find the rectangle.py file in the scripts. 
+Steps to execute/run the scritp:
+(Make sure that you have all the ROS turtlesim dependencies and packages installed)
+    -> Clone the repo
+    -> Run the commands below
+            catkin_make
+            source devel/setup.bash
+    -> Open 3 different terminals and then run the commands below in each of them respectively
+            roscore
+            rosrun turtlesim turtlesim_node
+            rosrun ros_session rectangle.py
