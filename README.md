@@ -1,4 +1,4 @@
-# The base git repo was cloned and a new python script was created to draw a rectangle using the turtlesim python-ROS.
+# The base git repo was cloned from the link provided in Notion Doc (https://jolly-boar-abb.notion.site/ROS-Task-1388124e236e807f8bb6c97679ffefb6) and a new python script was created to draw a rectangle using the turtlesim python-ROS.
 
 You can find the rectangle.py file in the scripts. 
 
